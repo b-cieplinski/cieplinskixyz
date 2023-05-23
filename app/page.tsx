@@ -32,7 +32,7 @@ query ListAppWorks {
   }`;
 
 
-export default function Home({works}: Props) {
+export default function Home() {
   const { loading, error, data } = useQuery(GET_WORK, { ssr: true });
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error : {error.message}</p>;
