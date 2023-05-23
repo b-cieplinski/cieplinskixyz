@@ -16,7 +16,7 @@ export default function RootLayout({
     ssrMode: true,
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.WEBINY_API_SECRET}`
+      Authorization: `Bearer a488fba7f9b00535387c45ed71762ce9e07dbc689c9ba1bb`
       },
   });
   return (
