@@ -1,4 +1,3 @@
-import { urlFor } from '@/sanityConfig'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
