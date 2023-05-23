@@ -13,7 +13,7 @@ const Header = () => {
         >
 
             <h1 className="font-semibold text-2xl md:text-5xl">Hello!<br/> I’m Brandon, a web developer.</h1>
-            <p className="my-auto flex items-center font-light h-36 md:h-32">I set myself a goal of bringing amazing things to life. Through the use of technology, I am able to create user-centric, delightful, and human experiences. Today I'm presenting you with my portfolio mostly built around React. This work is a personal statement about how rapidly things are evolving. Enjoy.</p>
+            <p className="my-auto flex items-center font-light h-36 md:h-32">I set myself a goal of bringing amazing things to life. Through the use of technology, I am able to create user-centric, delightful, and human experiences. Today I&apos;m presenting you with my portfolio mostly built around React. This work is a personal statement about how rapidly things are evolving. Enjoy.</p>
             <div className="flex items-end my-auto">
                 <button className="py-4 px-10 rounded-full bg-gray-800 text-white font-semibold">Contact me</button>
                 

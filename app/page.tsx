@@ -52,7 +52,7 @@ export default function Home({works}: Props) {
 
 {
   data.listAppWorks.data.map((work:any)=> (
-    <Work title={work.title} short={work.summary} description={work.content} link={work.slug} image={work.thumbnail} bgColor={''} textcolor={''} />
+    <Work key={work.id} title={work.title} short={work.summary} description={work.content} link={work.slug} image={work.thumbnail} bgColor={''} textcolor={''} />
   ))
 }
             
