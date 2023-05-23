@@ -11,12 +11,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const client = new ApolloClient({
-    uri: 'https://d2y2up4qdv5a8v.cloudfront.net/cms/read/en',
+    uri: process.env.NEXT_PUBLIC_WEBINY_API_URL,
     cache: new InMemoryCache(),
     ssrMode: true,
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer a488fba7f9b00535387c45ed71762ce9e07dbc689c9ba1bb`
+      Authorization: `Bearer ${process.env.WEBINY_API_SECRET}`
       },
   });
   return (
