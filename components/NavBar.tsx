@@ -30,14 +30,14 @@ const NavBar = () => {
         </motion.div>
         </Link>
 
-        <motion.a
+        {/* <motion.a
         initial={{ opacity: 0, y: 15}}
         animate={{ opacity: 1, y:0}}
         transition={{delay: 0.40}}
         className="cursor-pointer"
         onClick={() => router.push('/blog')}
         >Blog
-        </motion.a>
+        </motion.a> */}
 
         <Link to="contact" smooth={true}>
         <motion.div

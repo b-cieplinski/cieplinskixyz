@@ -65,7 +65,7 @@ return(
 <NavBar/>
 <div className='my-6 mx-4 lg:mx-0'>
 
-    <div className="h-96 w-full relative ">
+    <div className="h-96 lg:h-[600px] w-full relative ">
         <Image src={data.getAppWork.data.coverPhoto} alt={data.getAppWork.data.title} fill className="object-cover rounded-3xl shadow-md"/>
     </div>
     <div className="max-w-xl mx-auto my-8 space-y-8">
